@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FA2EB7C24274AF0002BEB91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA2EB7B24274AF0002BEB91 /* AppDelegate.swift */; };
+		8FA2EB7E24274AF0002BEB91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA2EB7D24274AF0002BEB91 /* SceneDelegate.swift */; };
+		8FA2EB8024274AF0002BEB91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA2EB7F24274AF0002BEB91 /* ViewController.swift */; };
+		8FA2EB8324274AF0002BEB91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA2EB8124274AF0002BEB91 /* Main.storyboard */; };
+		8FA2EB8524274AF1002BEB91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FA2EB8424274AF1002BEB91 /* Assets.xcassets */; };
+		8FA2EB8824274AF1002BEB91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA2EB8624274AF1002BEB91 /* LaunchScreen.storyboard */; };
+		8FA2EB9524274C06002BEB91 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA2EB9324274C06002BEB91 /* Interface.storyboard */; };
+		8FA2EB9724274C07002BEB91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FA2EB9624274C07002BEB91 /* Assets.xcassets */; };
+		8FA2EB9E24274C07002BEB91 /* HamiltonTevin_P&P5_IWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8FA2EB9D24274C07002BEB91 /* HamiltonTevin_P&P5_IWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8FA2EBA324274C07002BEB91 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA2EBA224274C07002BEB91 /* InterfaceController.swift */; };
+		8FA2EBA524274C07002BEB91 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA2EBA424274C07002BEB91 /* ExtensionDelegate.swift */; };
+		8FA2EBA724274C07002BEB91 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA2EBA624274C07002BEB91 /* NotificationController.swift */; };
+		8FA2EBA924274C08002BEB91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FA2EBA824274C08002BEB91 /* Assets.xcassets */; };
+		8FA2EBAE24274C08002BEB91 /* HamiltonTevin_P&P5_IWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8FA2EB9124274C06002BEB91 /* HamiltonTevin_P&P5_IWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FA2EB9F24274C07002BEB91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FA2EB7024274AF0002BEB91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FA2EB9C24274C07002BEB91;
+			remoteInfo = "HamiltonTevin_P&P5_IWatch Extension";
+		};
+		8FA2EBAC24274C08002BEB91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FA2EB7024274AF0002BEB91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FA2EB9024274C06002BEB91;
+			remoteInfo = "HamiltonTevin_P&P5_IWatch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8FA2EBB224274C08002BEB91 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8FA2EB9E24274C07002BEB91 /* HamiltonTevin_P&P5_IWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA2EBB624274C08002BEB91 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8FA2EBAE24274C08002BEB91 /* HamiltonTevin_P&P5_IWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8FA2EB7824274AF0002BEB91 /* HamiltonTevin_P&P5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HamiltonTevin_P&P5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA2EB7B24274AF0002BEB91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FA2EB7D24274AF0002BEB91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8FA2EB7F24274AF0002BEB91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8FA2EB8224274AF0002BEB91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FA2EB8424274AF1002BEB91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FA2EB8724274AF1002BEB91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FA2EB8924274AF1002BEB91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FA2EB9124274C06002BEB91 /* HamiltonTevin_P&P5_IWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HamiltonTevin_P&P5_IWatch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA2EB9424274C06002BEB91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		8FA2EB9624274C07002BEB91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FA2EB9824274C07002BEB91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FA2EB9D24274C07002BEB91 /* HamiltonTevin_P&P5_IWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HamiltonTevin_P&P5_IWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA2EBA224274C07002BEB91 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		8FA2EBA424274C07002BEB91 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		8FA2EBA624274C07002BEB91 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		8FA2EBA824274C08002BEB91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FA2EBAA24274C08002BEB91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FA2EBAB24274C08002BEB91 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FA2EB7524274AF0002BEB91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA2EB9A24274C07002BEB91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FA2EB6F24274AF0002BEB91 = {
+			isa = PBXGroup;
+			children = (
+				8FA2EB7A24274AF0002BEB91 /* HamiltonTevin_P&P5 */,
+				8FA2EB9224274C06002BEB91 /* HamiltonTevin_P&P5_IWatch */,
+				8FA2EBA124274C07002BEB91 /* HamiltonTevin_P&P5_IWatch Extension */,
+				8FA2EB7924274AF0002BEB91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FA2EB7924274AF0002BEB91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FA2EB7824274AF0002BEB91 /* HamiltonTevin_P&P5.app */,
+				8FA2EB9124274C06002BEB91 /* HamiltonTevin_P&P5_IWatch.app */,
+				8FA2EB9D24274C07002BEB91 /* HamiltonTevin_P&P5_IWatch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FA2EB7A24274AF0002BEB91 /* HamiltonTevin_P&P5 */ = {
+			isa = PBXGroup;
+			children = (
+				8FA2EB7B24274AF0002BEB91 /* AppDelegate.swift */,
+				8FA2EB7D24274AF0002BEB91 /* SceneDelegate.swift */,
+				8FA2EB7F24274AF0002BEB91 /* ViewController.swift */,
+				8FA2EB8124274AF0002BEB91 /* Main.storyboard */,
+				8FA2EB8424274AF1002BEB91 /* Assets.xcassets */,
+				8FA2EB8624274AF1002BEB91 /* LaunchScreen.storyboard */,
+				8FA2EB8924274AF1002BEB91 /* Info.plist */,
+			);
+			path = "HamiltonTevin_P&P5";
+			sourceTree = "<group>";
+		};
+		8FA2EB9224274C06002BEB91 /* HamiltonTevin_P&P5_IWatch */ = {
+			isa = PBXGroup;
+			children = (
+				8FA2EB9324274C06002BEB91 /* Interface.storyboard */,
+				8FA2EB9624274C07002BEB91 /* Assets.xcassets */,
+				8FA2EB9824274C07002BEB91 /* Info.plist */,
+			);
+			path = "HamiltonTevin_P&P5_IWatch";
+			sourceTree = "<group>";
+		};
+		8FA2EBA124274C07002BEB91 /* HamiltonTevin_P&P5_IWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8FA2EBA224274C07002BEB91 /* InterfaceController.swift */,
+				8FA2EBA424274C07002BEB91 /* ExtensionDelegate.swift */,
+				8FA2EBA624274C07002BEB91 /* NotificationController.swift */,
+				8FA2EBA824274C08002BEB91 /* Assets.xcassets */,
+				8FA2EBAA24274C08002BEB91 /* Info.plist */,
+				8FA2EBAB24274C08002BEB91 /* PushNotificationPayload.apns */,
+			);
+			path = "HamiltonTevin_P&P5_IWatch Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FA2EB7724274AF0002BEB91 /* HamiltonTevin_P&P5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FA2EB8C24274AF1002BEB91 /* Build configuration list for PBXNativeTarget "HamiltonTevin_P&P5" */;
+			buildPhases = (
+				8FA2EB7424274AF0002BEB91 /* Sources */,
+				8FA2EB7524274AF0002BEB91 /* Frameworks */,
+				8FA2EB7624274AF0002BEB91 /* Resources */,
+				8FA2EBB624274C08002BEB91 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FA2EBAD24274C08002BEB91 /* PBXTargetDependency */,
+			);
+			name = "HamiltonTevin_P&P5";
+			productName = "HamiltonTevin_P&P5";
+			productReference = 8FA2EB7824274AF0002BEB91 /* HamiltonTevin_P&P5.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FA2EB9024274C06002BEB91 /* HamiltonTevin_P&P5_IWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FA2EBB324274C08002BEB91 /* Build configuration list for PBXNativeTarget "HamiltonTevin_P&P5_IWatch" */;
+			buildPhases = (
+				8FA2EB8F24274C06002BEB91 /* Resources */,
+				8FA2EBB224274C08002BEB91 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FA2EBA024274C07002BEB91 /* PBXTargetDependency */,
+			);
+			name = "HamiltonTevin_P&P5_IWatch";
+			productName = "HamiltonTevin_P&P5_IWatch";
+			productReference = 8FA2EB9124274C06002BEB91 /* HamiltonTevin_P&P5_IWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		8FA2EB9C24274C07002BEB91 /* HamiltonTevin_P&P5_IWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FA2EBAF24274C08002BEB91 /* Build configuration list for PBXNativeTarget "HamiltonTevin_P&P5_IWatch Extension" */;
+			buildPhases = (
+				8FA2EB9924274C07002BEB91 /* Sources */,
+				8FA2EB9A24274C07002BEB91 /* Frameworks */,
+				8FA2EB9B24274C07002BEB91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HamiltonTevin_P&P5_IWatch Extension";
+			productName = "HamiltonTevin_P&P5_IWatch Extension";
+			productReference = 8FA2EB9D24274C07002BEB91 /* HamiltonTevin_P&P5_IWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FA2EB7024274AF0002BEB91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Tevin Hamilton";
+				TargetAttributes = {
+					8FA2EB7724274AF0002BEB91 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					8FA2EB9024274C06002BEB91 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					8FA2EB9C24274C07002BEB91 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8FA2EB7324274AF0002BEB91 /* Build configuration list for PBXProject "HamiltonTevin_P&P5" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FA2EB6F24274AF0002BEB91;
+			productRefGroup = 8FA2EB7924274AF0002BEB91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FA2EB7724274AF0002BEB91 /* HamiltonTevin_P&P5 */,
+				8FA2EB9024274C06002BEB91 /* HamiltonTevin_P&P5_IWatch */,
+				8FA2EB9C24274C07002BEB91 /* HamiltonTevin_P&P5_IWatch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FA2EB7624274AF0002BEB91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA2EB8824274AF1002BEB91 /* LaunchScreen.storyboard in Resources */,
+				8FA2EB8524274AF1002BEB91 /* Assets.xcassets in Resources */,
+				8FA2EB8324274AF0002BEB91 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA2EB8F24274C06002BEB91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA2EB9724274C07002BEB91 /* Assets.xcassets in Resources */,
+				8FA2EB9524274C06002BEB91 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA2EB9B24274C07002BEB91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA2EBA924274C08002BEB91 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FA2EB7424274AF0002BEB91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA2EB8024274AF0002BEB91 /* ViewController.swift in Sources */,
+				8FA2EB7C24274AF0002BEB91 /* AppDelegate.swift in Sources */,
+				8FA2EB7E24274AF0002BEB91 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA2EB9924274C07002BEB91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA2EBA724274C07002BEB91 /* NotificationController.swift in Sources */,
+				8FA2EBA524274C07002BEB91 /* ExtensionDelegate.swift in Sources */,
+				8FA2EBA324274C07002BEB91 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FA2EBA024274C07002BEB91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FA2EB9C24274C07002BEB91 /* HamiltonTevin_P&P5_IWatch Extension */;
+			targetProxy = 8FA2EB9F24274C07002BEB91 /* PBXContainerItemProxy */;
+		};
+		8FA2EBAD24274C08002BEB91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FA2EB9024274C06002BEB91 /* HamiltonTevin_P&P5_IWatch */;
+			targetProxy = 8FA2EBAC24274C08002BEB91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FA2EB8124274AF0002BEB91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FA2EB8224274AF0002BEB91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FA2EB8624274AF1002BEB91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FA2EB8724274AF1002BEB91 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8FA2EB9324274C06002BEB91 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FA2EB9424274C06002BEB91 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FA2EB8A24274AF1002BEB91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8FA2EB8B24274AF1002BEB91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FA2EB8D24274AF1002BEB91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HamiltonTevin_P&P5/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "comTevinHamilton.HamiltonTevin-P-P5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FA2EB8E24274AF1002BEB91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HamiltonTevin_P&P5/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "comTevinHamilton.HamiltonTevin-P-P5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8FA2EBB024274C08002BEB91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HamiltonTevin_P&P5_IWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "comTevinHamilton.HamiltonTevin-P-P5.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		8FA2EBB124274C08002BEB91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HamiltonTevin_P&P5_IWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "comTevinHamilton.HamiltonTevin-P-P5.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		8FA2EBB424274C08002BEB91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = HamiltonTevin_P_P5_IWatch_Extension;
+				INFOPLIST_FILE = "HamiltonTevin_P&P5_IWatch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "comTevinHamilton.HamiltonTevin-P-P5.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		8FA2EBB524274C08002BEB91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = HamiltonTevin_P_P5_IWatch_Extension;
+				INFOPLIST_FILE = "HamiltonTevin_P&P5_IWatch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "comTevinHamilton.HamiltonTevin-P-P5.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FA2EB7324274AF0002BEB91 /* Build configuration list for PBXProject "HamiltonTevin_P&P5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FA2EB8A24274AF1002BEB91 /* Debug */,
+				8FA2EB8B24274AF1002BEB91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FA2EB8C24274AF1002BEB91 /* Build configuration list for PBXNativeTarget "HamiltonTevin_P&P5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FA2EB8D24274AF1002BEB91 /* Debug */,
+				8FA2EB8E24274AF1002BEB91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FA2EBAF24274C08002BEB91 /* Build configuration list for PBXNativeTarget "HamiltonTevin_P&P5_IWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FA2EBB024274C08002BEB91 /* Debug */,
+				8FA2EBB124274C08002BEB91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FA2EBB324274C08002BEB91 /* Build configuration list for PBXNativeTarget "HamiltonTevin_P&P5_IWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FA2EBB424274C08002BEB91 /* Debug */,
+				8FA2EBB524274C08002BEB91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FA2EB7024274AF0002BEB91 /* Project object */;
+}
