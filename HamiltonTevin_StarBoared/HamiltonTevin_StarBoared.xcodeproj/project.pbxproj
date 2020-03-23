@@ -22,6 +22,7 @@
 		8FA2EBF924282F2D002BEB91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FA2EBF824282F2D002BEB91 /* Assets.xcassets */; };
 		8FA2EBFE24282F2D002BEB91 /* HamiltonTevin_StarBoared_Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8FA2EBE124282F2C002BEB91 /* HamiltonTevin_StarBoared_Watch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8FA2EC0924282FC1002BEB91 /* StarWarsCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA2EC0824282FC1002BEB91 /* StarWarsCharacter.swift */; };
+		8FA2EC0A242833B3002BEB91 /* StarWarsCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA2EC0824282FC1002BEB91 /* StarWarsCharacter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -318,6 +319,7 @@
 			files = (
 				8FA2EBF724282F2D002BEB91 /* NotificationController.swift in Sources */,
 				8FA2EBF524282F2D002BEB91 /* ExtensionDelegate.swift in Sources */,
+				8FA2EC0A242833B3002BEB91 /* StarWarsCharacter.swift in Sources */,
 				8FA2EBF324282F2D002BEB91 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
