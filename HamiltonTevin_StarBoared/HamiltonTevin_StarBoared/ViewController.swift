@@ -8,15 +8,30 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+    
     
     var charaArray = [StarWarsCharacter]()
+    var selectionStringArray :[String]  = ["characther Info", "character Qutos", "LightSaber", "Extra Sound"]
+    
+    @IBOutlet weak var tableVIew: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         downloadData()
         
     }
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return selectionStringArray.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell_id1", for: indexPath)
+        cell.textLabel?.text = selectionStringArray[indexPath.row]
+        return cell
+    }
+    
     //download data from the swapi api 
     func downloadData(){
         let config = URLSessionConfiguration.default
@@ -72,7 +87,7 @@ class ViewController: UIViewController {
                 
                 DispatchQueue.main.async {
                     //reload the the tableview with data.
-                    //self.tableView.reloadData()
+                    self.tableVIew.reloadData()
                 }
                 
             }
