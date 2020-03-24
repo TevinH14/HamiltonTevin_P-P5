@@ -20,7 +20,7 @@ let eye_color:String
         self.gender = name
         self.birth_year = birth_year
         self.height = height
-        self.eye_color = height
+        self.eye_color = eye_color
     }
 }
 
