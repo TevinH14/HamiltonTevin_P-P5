@@ -7,3 +7,19 @@
 //
 
 import Foundation
+import WatchKit
+
+class DetailInterfaceCpontroller: WKInterfaceController {
+    
+    override func awake(withContext context: Any?) {
+        
+    }
+    
+    override func willActivate() {
+        
+    }
+    
+    override func didDeactivate() {
+        
+    }
+}
