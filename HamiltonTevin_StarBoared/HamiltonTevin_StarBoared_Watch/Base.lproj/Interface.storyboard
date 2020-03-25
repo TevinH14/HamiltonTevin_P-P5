@@ -36,9 +36,36 @@
         <!--CharacterInterfaceController-->
         <scene sceneID="2Ee-oN-vWX">
             <objects>
-                <controller identifier="CharacterInterfaceController" id="iv2-eG-96R" customClass="CharacterInterfaceController" customModule="HamiltonTevin_StarBoared_Watch_Extension"/>
+                <controller identifier="CharacterInterfaceController" id="iv2-eG-96R" customClass="CharacterInterfaceController" customModule="HamiltonTevin_StarBoared_Watch_Extension">
+                    <items>
+                        <table alignment="left" id="r8a-KZ-TAN">
+                            <items>
+                                <tableRow identifier="row_id2" id="Ohs-rr-goQ" customClass="RowController" customModule="HamiltonTevin_StarBoared_Watch_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="hZ8-Xt-JQI">
+                                        <items>
+                                            <label width="136" height="63" alignment="left" text="Label" textAlignment="center" id="6Jb-CU-Cas"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="rowCharacterName" destination="6Jb-CU-Cas" id="5As-xW-biO"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="tableView" destination="r8a-KZ-TAN" id="hNZ-e4-y8J"/>
+                    </connections>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="542" y="360"/>
+            <point key="canvasLocation" x="451" y="345"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="le9-FU-mKG">
+            <objects>
+                <controller id="T9f-JF-ESQ"/>
+            </objects>
+            <point key="canvasLocation" x="701" y="346"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
