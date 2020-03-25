@@ -60,12 +60,53 @@
             </objects>
             <point key="canvasLocation" x="451" y="345"/>
         </scene>
-        <!--Interface Controller-->
+        <!--DetailinterfaceController-->
         <scene sceneID="le9-FU-mKG">
             <objects>
-                <controller id="T9f-JF-ESQ"/>
+                <controller identifier="DetailinterfaceController" id="T9f-JF-ESQ" customClass="DetailInterfaceCpontroller" customModule="HamiltonTevin_StarBoared_Watch_Extension">
+                    <items>
+                        <imageView width="136" height="54" alignment="left" contentMode="scaleAspectFit" id="NPV-1Q-liM"/>
+                        <group width="1" height="15" alignment="left" id="Ok8-kB-VBg">
+                            <items>
+                                <label width="49" alignment="left" text="Name:" id="Qek-vv-WYL"/>
+                                <label width="88" alignment="left" text="Label" id="Mlv-bh-Qr9"/>
+                            </items>
+                        </group>
+                        <group width="136" alignment="left" id="qsp-ac-8hN">
+                            <items>
+                                <label width="79" alignment="left" text="Birth Year:" minimumScaleFactor="0.25" id="MGJ-Bd-VZD"/>
+                                <label width="67" alignment="left" text="Label" minimumScaleFactor="0.25" id="uWG-th-A9w"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="zqN-bw-yUg">
+                            <items>
+                                <label width="61" alignment="left" text="Gender:" id="UrW-cH-Hhh"/>
+                                <label width="90" alignment="left" text="Label" id="rck-gI-a6m"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="tXS-St-WEV">
+                            <items>
+                                <label width="58" alignment="left" text="Height:" id="RVo-Iq-sxm"/>
+                                <label width="85" alignment="left" text="Label" id="qfW-AD-1O4"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="ehl-DP-awS">
+                            <items>
+                                <label width="73" alignment="left" text="Eye Color" id="8OU-Ux-xqB"/>
+                                <label width="74" alignment="left" text="Label" id="ang-aY-mdX"/>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="labelBirthYear" destination="uWG-th-A9w" id="XlH-WL-u8X"/>
+                        <outlet property="labelEyeColor" destination="ang-aY-mdX" id="V35-Xr-WDc"/>
+                        <outlet property="labelGender" destination="rck-gI-a6m" id="c1F-I7-PYl"/>
+                        <outlet property="labelHeight" destination="qfW-AD-1O4" id="cCQ-Wx-iC6"/>
+                        <outlet property="labelName" destination="Mlv-bh-Qr9" id="1h0-Pr-8eF"/>
+                    </connections>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="701" y="346"/>
+            <point key="canvasLocation" x="701" y="343"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
