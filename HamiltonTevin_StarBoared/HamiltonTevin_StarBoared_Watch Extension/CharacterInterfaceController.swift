@@ -29,6 +29,10 @@ class CharacterInterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
     
+    override func table(_ table: WKInterfaceTable, didSelectRowAt rowIndex: Int) {
+        pushController(withName: "DetailInterfaceController", context: charaArray[rowIndex])
+    }
+    
     func loadTableView(){
         tableView.setNumberOfRows(charaArray.count, withRowType: "row_id2")
         
