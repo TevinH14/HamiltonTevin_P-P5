@@ -12,7 +12,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     
     
     var charaArray = [StarWarsCharacter]()
-    var selectionStringArray :[String]  = ["characther Info", "character Qutos", "LightSaber", "Extra Sound"]
+    var selectionStringArray :[String]  = ["characther Info", "character quotes", "LightSaber", "Extra Sound"]
     
     @IBOutlet weak var tableVIew: UITableView!
     

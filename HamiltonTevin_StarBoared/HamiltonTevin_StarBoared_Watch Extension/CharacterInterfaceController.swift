@@ -21,13 +21,6 @@ class CharacterInterfaceController: WKInterfaceController {
         
     }
     
-    override func willActivate() {
-        super.willActivate()
-    }
-    
-    override func didDeactivate() {
-        super.didDeactivate()
-    }
     
     override func table(_ table: WKInterfaceTable, didSelectRowAt rowIndex: Int) {
         pushController(withName: "DetailInterfaceController", context: charaArray[rowIndex])
