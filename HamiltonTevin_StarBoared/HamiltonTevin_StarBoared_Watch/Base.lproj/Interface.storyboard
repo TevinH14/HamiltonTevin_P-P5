@@ -66,15 +66,25 @@
                 <controller identifier="DetailInterfaceController" id="T9f-JF-ESQ" customClass="DetailInterfaceCpontroller" customModule="HamiltonTevin_StarBoared_Watch_Extension">
                     <items>
                         <imageView width="136" height="54" alignment="left" contentMode="scaleAspectFit" id="NPV-1Q-liM"/>
-                        <label width="49" alignment="left" text="Name:" textAlignment="left" id="Qek-vv-WYL"/>
+                        <label width="49" alignment="left" text="Name:" textAlignment="left" id="Qek-vv-WYL">
+                            <color key="textColor" red="0.93937365869492384" green="0.17248702989283435" blue="0.13729677739374854" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </label>
                         <label width="136" alignment="left" text="Label" textAlignment="left" minimumScaleFactor="0.20000000000000001" id="Mlv-bh-Qr9"/>
-                        <label width="79" alignment="left" text="Birth Year:" textAlignment="left" minimumScaleFactor="0.25" id="MGJ-Bd-VZD"/>
+                        <label width="79" alignment="left" text="Birth Year:" textAlignment="left" minimumScaleFactor="0.25" id="MGJ-Bd-VZD">
+                            <color key="textColor" red="0.93937365869492384" green="0.17248702989283435" blue="0.13729677739374854" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </label>
                         <label width="136" alignment="left" text="Label" textAlignment="left" minimumScaleFactor="0.20000000000000001" id="uWG-th-A9w"/>
-                        <label width="61" alignment="left" text="Gender:" textAlignment="left" id="UrW-cH-Hhh"/>
+                        <label width="61" alignment="left" text="Gender:" textAlignment="left" id="UrW-cH-Hhh">
+                            <color key="textColor" red="0.93937365869492384" green="0.17248702989283435" blue="0.13729677739374854" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </label>
                         <label width="136" alignment="left" text="Label" textAlignment="left" minimumScaleFactor="0.20000000000000001" id="rck-gI-a6m"/>
-                        <label width="58" alignment="left" text="Height:" textAlignment="left" id="RVo-Iq-sxm"/>
+                        <label width="58" alignment="left" text="Height:" textAlignment="left" id="RVo-Iq-sxm">
+                            <color key="textColor" red="0.93937365869492384" green="0.17248702989283435" blue="0.13729677739374854" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </label>
                         <label width="136" alignment="left" text="Label" textAlignment="left" minimumScaleFactor="0.20000000000000001" id="qfW-AD-1O4"/>
-                        <label width="73" alignment="left" text="Eye Color" textAlignment="left" minimumScaleFactor="0.5" id="8OU-Ux-xqB"/>
+                        <label width="73" alignment="left" text="Eye Color" textAlignment="left" minimumScaleFactor="0.5" id="8OU-Ux-xqB">
+                            <color key="textColor" red="0.93937365869492384" green="0.17248702989283435" blue="0.13729677739374854" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </label>
                         <label width="136" alignment="left" text="Label" textAlignment="left" minimumScaleFactor="0.20000000000000001" id="ang-aY-mdX"/>
                     </items>
                     <connections>
@@ -88,6 +98,49 @@
                 </controller>
             </objects>
             <point key="canvasLocation" x="701" y="343"/>
+        </scene>
+        <!--Character Quotes Interface Controller-->
+        <scene sceneID="uSD-SI-IeM">
+            <objects>
+                <controller id="pY0-7H-XRz" customClass="CharacterQuotesInterfaceController" customModule="HamiltonTevin_StarBoared_Watch_Extension">
+                    <items>
+                        <group width="1" height="0.5" alignment="left" id="Y4g-WG-Eod">
+                            <items>
+                                <button width="0.5" height="1" alignment="left" title="Darth Vader" id="lHw-QQ-V63">
+                                    <color key="backgroundColor" red="0.60393187570087803" green="0.11089348155874129" blue="0.088269347912406523" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <fontDescription key="font" type="system" weight="thin" pointSize="11"/>
+                                    <connections>
+                                        <action selector="playDarthVader" destination="pY0-7H-XRz" id="roh-QM-Lzj"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" height="1" alignment="left" title="Luke Skywalker" id="Wny-fA-WNU">
+                                    <color key="backgroundColor" red="0.26840047207764894" green="0.4197247362577109" blue="0.85494941473007202" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <fontDescription key="font" type="system" weight="thin" pointSize="11"/>
+                                    <connections>
+                                        <action selector="playLukeSkywalker" destination="pY0-7H-XRz" id="ujZ-b0-jiv"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="0.5" alignment="left" id="dg7-q0-Aoc">
+                            <items>
+                                <button width="0.5" height="1" alignment="left" title="Yoda" id="ZYG-4A-XXA">
+                                    <color key="backgroundColor" red="0.45956849854146797" green="0.72734388209841572" blue="0.3287187930320794" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <fontDescription key="font" type="system" weight="thin" pointSize="15"/>
+                                    <connections>
+                                        <action selector="playYoda" destination="pY0-7H-XRz" id="FOK-ug-jeZ"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" height="1" alignment="left" title="Darth Sidious" id="iiJ-4B-8It">
+                                    <color key="backgroundColor" red="0.35610204068949719" green="0.1990917604659391" blue="0.85494941473007202" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <fontDescription key="font" type="system" weight="thin" pointSize="15"/>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="931" y="314"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">

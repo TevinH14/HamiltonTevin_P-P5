@@ -27,6 +27,8 @@
 		8FA2EBFE24282F2D002BEB91 /* HamiltonTevin_StarBoared_Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8FA2EBE124282F2C002BEB91 /* HamiltonTevin_StarBoared_Watch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8FA2EC0924282FC1002BEB91 /* StarWarsCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA2EC0824282FC1002BEB91 /* StarWarsCharacter.swift */; };
 		8FA2EC0A242833B3002BEB91 /* StarWarsCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA2EC0824282FC1002BEB91 /* StarWarsCharacter.swift */; };
+		8FA367AA2431B1390034E76C /* CharacterQuotesInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA367A92431B1390034E76C /* CharacterQuotesInterfaceController.swift */; };
+		8FA367AC2431D9070034E76C /* PlayQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA367AB2431D9070034E76C /* PlayQuotes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +97,8 @@
 		8FA2EBFA24282F2D002BEB91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FA2EBFB24282F2D002BEB91 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		8FA2EC0824282FC1002BEB91 /* StarWarsCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsCharacter.swift; sourceTree = "<group>"; };
+		8FA367A92431B1390034E76C /* CharacterQuotesInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterQuotesInterfaceController.swift; sourceTree = "<group>"; };
+		8FA367AB2431D9070034E76C /* PlayQuotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayQuotes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,10 +168,9 @@
 			isa = PBXGroup;
 			children = (
 				8FA2EBF224282F2D002BEB91 /* InterfaceController.swift */,
-				8F31F4922429CDEA0089541B /* CharacterInterfaceController.swift */,
-				8F31F494242AF10E0089541B /* DetailInterfaceController.swift */,
+				8FA367AD2431DB080034E76C /* character Info controllers */,
+				8FA367AE2431DB460034E76C /* characcter sounds quotes  */,
 				8FA2EBF424282F2D002BEB91 /* ExtensionDelegate.swift */,
-				8F31F4902429C2430089541B /* RowController.swift */,
 				8FA2EBF624282F2D002BEB91 /* NotificationController.swift */,
 				8FA2EBF824282F2D002BEB91 /* Assets.xcassets */,
 				8FA2EBFA24282F2D002BEB91 /* Info.plist */,
@@ -182,6 +185,25 @@
 				8FA2EC0824282FC1002BEB91 /* StarWarsCharacter.swift */,
 			);
 			path = SharedModelData;
+			sourceTree = "<group>";
+		};
+		8FA367AD2431DB080034E76C /* character Info controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8F31F4902429C2430089541B /* RowController.swift */,
+				8F31F4922429CDEA0089541B /* CharacterInterfaceController.swift */,
+				8F31F494242AF10E0089541B /* DetailInterfaceController.swift */,
+			);
+			path = "character Info controllers";
+			sourceTree = "<group>";
+		};
+		8FA367AE2431DB460034E76C /* characcter sounds quotes  */ = {
+			isa = PBXGroup;
+			children = (
+				8FA367A92431B1390034E76C /* CharacterQuotesInterfaceController.swift */,
+				8FA367AB2431D9070034E76C /* PlayQuotes.swift */,
+			);
+			path = "characcter sounds quotes ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,7 +356,9 @@
 				8FA2EBF524282F2D002BEB91 /* ExtensionDelegate.swift in Sources */,
 				8FA2EC0A242833B3002BEB91 /* StarWarsCharacter.swift in Sources */,
 				8FA2EBF324282F2D002BEB91 /* InterfaceController.swift in Sources */,
+				8FA367AA2431B1390034E76C /* CharacterQuotesInterfaceController.swift in Sources */,
 				8F31F495242AF10E0089541B /* DetailInterfaceController.swift in Sources */,
+				8FA367AC2431D9070034E76C /* PlayQuotes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
