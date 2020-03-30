@@ -29,6 +29,18 @@
 		8FA2EC0A242833B3002BEB91 /* StarWarsCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA2EC0824282FC1002BEB91 /* StarWarsCharacter.swift */; };
 		8FA367AA2431B1390034E76C /* CharacterQuotesInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA367A92431B1390034E76C /* CharacterQuotesInterfaceController.swift */; };
 		8FA367AC2431D9070034E76C /* PlayQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA367AB2431D9070034E76C /* PlayQuotes.swift */; };
+		8FA367BB2431EB950034E76C /* The power of the dark side.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FA367B02431EB950034E76C /* The power of the dark side.mp3 */; };
+		8FA367BC2431EB950034E76C /* Your mother.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FA367B12431EB950034E76C /* Your mother.mp3 */; };
+		8FA367BD2431EB950034E76C /* There is no try.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FA367B22431EB950034E76C /* There is no try.mp3 */; };
+		8FA367BE2431EB950034E76C /* Become a Jedi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FA367B32431EB950034E76C /* Become a Jedi.mp3 */; };
+		8FA367BF2431EB950034E76C /* Do it.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FA367B42431EB950034E76C /* Do it.mp3 */; };
+		8FA367C02431EB950034E76C /* learn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FA367B52431EB950034E76C /* learn.mp3 */; };
+		8FA367C12431EB950034E76C /* I am your father.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FA367B62431EB950034E76C /* I am your father.mp3 */; };
+		8FA367C22431EB950034E76C /* Darth Vader breathing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FA367B72431EB950034E76C /* Darth Vader breathing.mp3 */; };
+		8FA367C32431EB950034E76C /* execute_order_66.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FA367B82431EB950034E76C /* execute_order_66.mp3 */; };
+		8FA367C42431EB950034E76C /* Size of that thing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FA367B92431EB950034E76C /* Size of that thing.mp3 */; };
+		8FA367C52431EB950034E76C /* Fear is the path.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FA367BA2431EB950034E76C /* Fear is the path.mp3 */; };
+		8FA367C72431EC210034E76C /* Piece o junk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FA367C62431EC210034E76C /* Piece o junk.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +111,18 @@
 		8FA2EC0824282FC1002BEB91 /* StarWarsCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsCharacter.swift; sourceTree = "<group>"; };
 		8FA367A92431B1390034E76C /* CharacterQuotesInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterQuotesInterfaceController.swift; sourceTree = "<group>"; };
 		8FA367AB2431D9070034E76C /* PlayQuotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayQuotes.swift; sourceTree = "<group>"; };
+		8FA367B02431EB950034E76C /* The power of the dark side.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The power of the dark side.mp3"; sourceTree = "<group>"; };
+		8FA367B12431EB950034E76C /* Your mother.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Your mother.mp3"; sourceTree = "<group>"; };
+		8FA367B22431EB950034E76C /* There is no try.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "There is no try.mp3"; sourceTree = "<group>"; };
+		8FA367B32431EB950034E76C /* Become a Jedi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Become a Jedi.mp3"; sourceTree = "<group>"; };
+		8FA367B42431EB950034E76C /* Do it.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Do it.mp3"; sourceTree = "<group>"; };
+		8FA367B52431EB950034E76C /* learn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = learn.mp3; sourceTree = "<group>"; };
+		8FA367B62431EB950034E76C /* I am your father.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I am your father.mp3"; sourceTree = "<group>"; };
+		8FA367B72431EB950034E76C /* Darth Vader breathing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Darth Vader breathing.mp3"; sourceTree = "<group>"; };
+		8FA367B82431EB950034E76C /* execute_order_66.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = execute_order_66.mp3; sourceTree = "<group>"; };
+		8FA367B92431EB950034E76C /* Size of that thing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Size of that thing.mp3"; sourceTree = "<group>"; };
+		8FA367BA2431EB950034E76C /* Fear is the path.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Fear is the path.mp3"; sourceTree = "<group>"; };
+		8FA367C62431EC210034E76C /* Piece o junk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Piece o junk.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +199,7 @@
 				8FA2EBF824282F2D002BEB91 /* Assets.xcassets */,
 				8FA2EBFA24282F2D002BEB91 /* Info.plist */,
 				8FA2EBFB24282F2D002BEB91 /* PushNotificationPayload.apns */,
+				8FA367AF2431EB950034E76C /* Audio */,
 			);
 			path = "HamiltonTevin_StarBoared_Watch Extension";
 			sourceTree = "<group>";
@@ -204,6 +229,25 @@
 				8FA367AB2431D9070034E76C /* PlayQuotes.swift */,
 			);
 			path = "characcter sounds quotes ";
+			sourceTree = "<group>";
+		};
+		8FA367AF2431EB950034E76C /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				8FA367B62431EB950034E76C /* I am your father.mp3 */,
+				8FA367B72431EB950034E76C /* Darth Vader breathing.mp3 */,
+				8FA367B02431EB950034E76C /* The power of the dark side.mp3 */,
+				8FA367B12431EB950034E76C /* Your mother.mp3 */,
+				8FA367B82431EB950034E76C /* execute_order_66.mp3 */,
+				8FA367B42431EB950034E76C /* Do it.mp3 */,
+				8FA367B22431EB950034E76C /* There is no try.mp3 */,
+				8FA367BA2431EB950034E76C /* Fear is the path.mp3 */,
+				8FA367B52431EB950034E76C /* learn.mp3 */,
+				8FA367B92431EB950034E76C /* Size of that thing.mp3 */,
+				8FA367B32431EB950034E76C /* Become a Jedi.mp3 */,
+				8FA367C62431EC210034E76C /* Piece o junk.mp3 */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,8 +371,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FA367BD2431EB950034E76C /* There is no try.mp3 in Resources */,
+				8FA367C32431EB950034E76C /* execute_order_66.mp3 in Resources */,
+				8FA367C02431EB950034E76C /* learn.mp3 in Resources */,
+				8FA367C72431EC210034E76C /* Piece o junk.mp3 in Resources */,
+				8FA367C42431EB950034E76C /* Size of that thing.mp3 in Resources */,
+				8FA367BE2431EB950034E76C /* Become a Jedi.mp3 in Resources */,
 				8F31F496242B10BF0089541B /* Assets.xcassets in Resources */,
+				8FA367C22431EB950034E76C /* Darth Vader breathing.mp3 in Resources */,
+				8FA367BB2431EB950034E76C /* The power of the dark side.mp3 in Resources */,
+				8FA367C12431EB950034E76C /* I am your father.mp3 in Resources */,
+				8FA367BF2431EB950034E76C /* Do it.mp3 in Resources */,
+				8FA367C52431EB950034E76C /* Fear is the path.mp3 in Resources */,
 				8FA2EBF924282F2D002BEB91 /* Assets.xcassets in Resources */,
+				8FA367BC2431EB950034E76C /* Your mother.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

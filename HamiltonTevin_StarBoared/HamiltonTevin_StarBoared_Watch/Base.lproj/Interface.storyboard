@@ -99,10 +99,10 @@
             </objects>
             <point key="canvasLocation" x="701" y="343"/>
         </scene>
-        <!--Character Quotes Interface Controller-->
+        <!--Quotes-->
         <scene sceneID="uSD-SI-IeM">
             <objects>
-                <controller id="pY0-7H-XRz" customClass="CharacterQuotesInterfaceController" customModule="HamiltonTevin_StarBoared_Watch_Extension">
+                <controller identifier="CharacterQuotesInterfaceController" title="Quotes" id="pY0-7H-XRz" customClass="CharacterQuotesInterfaceController" customModule="HamiltonTevin_StarBoared_Watch_Extension">
                     <items>
                         <group width="1" height="0.5" alignment="left" id="Y4g-WG-Eod">
                             <items>
@@ -134,6 +134,9 @@
                                 <button width="0.5" height="1" alignment="left" title="Darth Sidious" id="iiJ-4B-8It">
                                     <color key="backgroundColor" red="0.35610204068949719" green="0.1990917604659391" blue="0.85494941473007202" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <fontDescription key="font" type="system" weight="thin" pointSize="15"/>
+                                    <connections>
+                                        <action selector="playDarthSidious" destination="pY0-7H-XRz" id="nkI-Qx-xTm"/>
+                                    </connections>
                                 </button>
                             </items>
                         </group>

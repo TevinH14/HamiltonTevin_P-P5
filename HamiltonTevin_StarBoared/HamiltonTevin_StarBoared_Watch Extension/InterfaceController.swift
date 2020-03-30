@@ -50,7 +50,7 @@ class InterfaceController: WKInterfaceController {
         case 0:
             pushController(withName: "CharacterInterfaceController", context: nil)
         case 1:
-            pushController(withName: "", context: nil)
+            pushController(withName: "CharacterQuotesInterfaceController", context: nil)
         case 2:
             pushController(withName: "", context: nil)
         case 3:

@@ -7,6 +7,7 @@
 //
 
 import AVFoundation
+import WatchKit
 
 protocol PlayQuotes: AnyObject {
     var audioPlayer:AVAudioPlayer? {get set}
