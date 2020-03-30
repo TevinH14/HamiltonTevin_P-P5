@@ -6,17 +6,19 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="15501"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--StarBoard-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="HamiltonTevin_StarBoared_Watch" customModuleProvider="target">
+                <controller identifier="StarBoard" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="HamiltonTevin_StarBoared_Watch" customModuleProvider="target">
                     <items>
                         <table alignment="left" id="ti5-6U-Vld">
                             <items>
                                 <tableRow identifier="row_id1" id="q2F-Mn-6fh" customClass="RowController" customModule="HamiltonTevin_StarBoared_Watch_Extension">
                                     <group key="rootItem" width="1" alignment="left" id="fQ9-1M-zG6">
                                         <items>
-                                            <label width="1" height="37" alignment="left" text="Label" textAlignment="center" id="hQJ-y1-MSv" userLabel="rowLabelName"/>
+                                            <label width="120" height="37" alignment="left" text="Label" textAlignment="center" id="hQJ-y1-MSv" userLabel="rowLabelName">
+                                                <fontDescription key="font" type="system" weight="medium" pointSize="16"/>
+                                            </label>
                                         </items>
                                     </group>
                                     <connections>
@@ -24,8 +26,10 @@
                                     </connections>
                                 </tableRow>
                             </items>
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </table>
                     </items>
+                    <color key="backgroundColor" red="0.9393736587" green="0.17248702990000001" blue="0.13729677739999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     <connections>
                         <outlet property="tableView" destination="ti5-6U-Vld" id="VwM-se-h6o"/>
                     </connections>
@@ -33,17 +37,19 @@
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
         </scene>
-        <!--CharacterInterfaceController-->
+        <!--Selected an character-->
         <scene sceneID="2Ee-oN-vWX">
             <objects>
-                <controller identifier="CharacterInterfaceController" id="iv2-eG-96R" customClass="CharacterInterfaceController" customModule="HamiltonTevin_StarBoared_Watch_Extension">
+                <controller identifier="CharacterInterfaceController" title="Selected an character" id="iv2-eG-96R" customClass="CharacterInterfaceController" customModule="HamiltonTevin_StarBoared_Watch_Extension">
                     <items>
                         <table alignment="left" id="r8a-KZ-TAN">
                             <items>
                                 <tableRow identifier="row_id2" id="Ohs-rr-goQ" customClass="RowController" customModule="HamiltonTevin_StarBoared_Watch_Extension">
                                     <group key="rootItem" width="1" alignment="left" id="hZ8-Xt-JQI">
                                         <items>
-                                            <label width="136" height="63" alignment="left" text="Label" textAlignment="center" id="6Jb-CU-Cas"/>
+                                            <label width="136" height="63" alignment="left" text="Label" textAlignment="center" id="6Jb-CU-Cas">
+                                                <fontDescription key="font" type="system" weight="medium" pointSize="22"/>
+                                            </label>
                                         </items>
                                     </group>
                                     <connections>
@@ -51,6 +57,7 @@
                                     </connections>
                                 </tableRow>
                             </items>
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </table>
                     </items>
                     <connections>
@@ -69,23 +76,33 @@
                         <label width="49" alignment="left" text="Name:" textAlignment="left" id="Qek-vv-WYL">
                             <color key="textColor" red="0.93937365869492384" green="0.17248702989283435" blue="0.13729677739374854" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         </label>
-                        <label width="136" alignment="left" text="Label" textAlignment="left" minimumScaleFactor="0.20000000000000001" id="Mlv-bh-Qr9"/>
+                        <label width="136" alignment="left" text="Label" textAlignment="left" minimumScaleFactor="0.20000000000000001" id="Mlv-bh-Qr9">
+                            <color key="textColor" red="1" green="0.99614807522748394" blue="0.18620453434063233" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </label>
                         <label width="79" alignment="left" text="Birth Year:" textAlignment="left" minimumScaleFactor="0.25" id="MGJ-Bd-VZD">
                             <color key="textColor" red="0.93937365869492384" green="0.17248702989283435" blue="0.13729677739374854" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         </label>
-                        <label width="136" alignment="left" text="Label" textAlignment="left" minimumScaleFactor="0.20000000000000001" id="uWG-th-A9w"/>
+                        <label width="136" alignment="left" text="Label" textAlignment="left" minimumScaleFactor="0.20000000000000001" id="uWG-th-A9w">
+                            <color key="textColor" red="1" green="0.99614807522748394" blue="0.18620453434063233" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </label>
                         <label width="61" alignment="left" text="Gender:" textAlignment="left" id="UrW-cH-Hhh">
                             <color key="textColor" red="0.93937365869492384" green="0.17248702989283435" blue="0.13729677739374854" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         </label>
-                        <label width="136" alignment="left" text="Label" textAlignment="left" minimumScaleFactor="0.20000000000000001" id="rck-gI-a6m"/>
+                        <label width="136" alignment="left" text="Label" textAlignment="left" minimumScaleFactor="0.20000000000000001" id="rck-gI-a6m">
+                            <color key="textColor" red="1" green="0.99614807522748394" blue="0.18620453434063233" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </label>
                         <label width="58" alignment="left" text="Height:" textAlignment="left" id="RVo-Iq-sxm">
                             <color key="textColor" red="0.93937365869492384" green="0.17248702989283435" blue="0.13729677739374854" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         </label>
-                        <label width="136" alignment="left" text="Label" textAlignment="left" minimumScaleFactor="0.20000000000000001" id="qfW-AD-1O4"/>
+                        <label width="136" alignment="left" text="Label" textAlignment="left" minimumScaleFactor="0.20000000000000001" id="qfW-AD-1O4">
+                            <color key="textColor" red="1" green="0.99614807522748394" blue="0.18620453434063233" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </label>
                         <label width="73" alignment="left" text="Eye Color" textAlignment="left" minimumScaleFactor="0.5" id="8OU-Ux-xqB">
                             <color key="textColor" red="0.93937365869492384" green="0.17248702989283435" blue="0.13729677739374854" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         </label>
-                        <label width="136" alignment="left" text="Label" textAlignment="left" minimumScaleFactor="0.20000000000000001" id="ang-aY-mdX"/>
+                        <label width="136" alignment="left" text="Label" textAlignment="left" minimumScaleFactor="0.20000000000000001" id="ang-aY-mdX">
+                            <color key="textColor" red="1" green="0.99614807522748394" blue="0.18620453434063233" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </label>
                     </items>
                     <connections>
                         <outlet property="imageView" destination="NPV-1Q-liM" id="7Nl-uz-K2C"/>
@@ -107,15 +124,16 @@
                         <group width="1" height="0.5" alignment="left" id="Y4g-WG-Eod">
                             <items>
                                 <button width="0.5" height="1" alignment="left" title="Darth Vader" id="lHw-QQ-V63">
-                                    <color key="backgroundColor" red="0.60393187570087803" green="0.11089348155874129" blue="0.088269347912406523" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    <fontDescription key="font" type="system" weight="thin" pointSize="11"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="backgroundColor" red="1" green="0.18361918954856726" blue="0.14615778941948998" alpha="0.84666630993150682" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <fontDescription key="font" type="system" weight="medium" pointSize="13"/>
                                     <connections>
                                         <action selector="playDarthVader" destination="pY0-7H-XRz" id="roh-QM-Lzj"/>
                                     </connections>
                                 </button>
                                 <button width="0.5" height="1" alignment="left" title="Luke Skywalker" id="Wny-fA-WNU">
                                     <color key="backgroundColor" red="0.26840047207764894" green="0.4197247362577109" blue="0.85494941473007202" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    <fontDescription key="font" type="system" weight="thin" pointSize="11"/>
+                                    <fontDescription key="font" type="system" weight="medium" pointSize="10"/>
                                     <connections>
                                         <action selector="playLukeSkywalker" destination="pY0-7H-XRz" id="ujZ-b0-jiv"/>
                                     </connections>
@@ -126,14 +144,14 @@
                             <items>
                                 <button width="0.5" height="1" alignment="left" title="Yoda" id="ZYG-4A-XXA">
                                     <color key="backgroundColor" red="0.45956849854146797" green="0.72734388209841572" blue="0.3287187930320794" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    <fontDescription key="font" type="system" weight="thin" pointSize="15"/>
+                                    <fontDescription key="font" type="system" weight="thin" pointSize="14"/>
                                     <connections>
                                         <action selector="playYoda" destination="pY0-7H-XRz" id="FOK-ug-jeZ"/>
                                     </connections>
                                 </button>
                                 <button width="0.5" height="1" alignment="left" title="Darth Sidious" id="iiJ-4B-8It">
                                     <color key="backgroundColor" red="0.35610204068949719" green="0.1990917604659391" blue="0.85494941473007202" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    <fontDescription key="font" type="system" weight="thin" pointSize="15"/>
+                                    <fontDescription key="font" type="system" weight="thin" pointSize="14"/>
                                     <connections>
                                         <action selector="playDarthSidious" destination="pY0-7H-XRz" id="nkI-Qx-xTm"/>
                                     </connections>

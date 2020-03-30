@@ -191,7 +191,6 @@
 		8FA2EBF124282F2D002BEB91 /* HamiltonTevin_StarBoared_Watch Extension */ = {
 			isa = PBXGroup;
 			children = (
-				8FA2EBF224282F2D002BEB91 /* InterfaceController.swift */,
 				8FA367AD2431DB080034E76C /* character Info controllers */,
 				8FA367AE2431DB460034E76C /* characcter sounds quotes  */,
 				8FA2EBF424282F2D002BEB91 /* ExtensionDelegate.swift */,
@@ -215,6 +214,7 @@
 		8FA367AD2431DB080034E76C /* character Info controllers */ = {
 			isa = PBXGroup;
 			children = (
+				8FA2EBF224282F2D002BEB91 /* InterfaceController.swift */,
 				8F31F4902429C2430089541B /* RowController.swift */,
 				8F31F4922429CDEA0089541B /* CharacterInterfaceController.swift */,
 				8F31F494242AF10E0089541B /* DetailInterfaceController.swift */,

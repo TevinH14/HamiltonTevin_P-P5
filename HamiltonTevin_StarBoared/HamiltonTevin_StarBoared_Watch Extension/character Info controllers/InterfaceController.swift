@@ -41,6 +41,7 @@ class InterfaceController: WKInterfaceController {
         for (index,item) in selectionStringArray.enumerated(){
             if let rowController = tableView.rowController(at: index) as? RowController{
                 rowController.rowLabelName.setText(item)
+                
             }
         }
     }
