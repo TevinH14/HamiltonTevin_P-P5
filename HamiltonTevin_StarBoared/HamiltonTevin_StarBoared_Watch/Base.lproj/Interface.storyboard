@@ -16,7 +16,7 @@
                                 <tableRow identifier="row_id1" id="q2F-Mn-6fh" customClass="RowController" customModule="HamiltonTevin_StarBoared_Watch_Extension">
                                     <group key="rootItem" width="1" alignment="left" id="fQ9-1M-zG6">
                                         <items>
-                                            <label width="120" height="37" alignment="left" text="Label" textAlignment="center" id="hQJ-y1-MSv" userLabel="rowLabelName">
+                                            <label width="120" height="37" alignment="left" text="Label" textAlignment="center" minimumScaleFactor="0.5" id="hQJ-y1-MSv" userLabel="rowLabelName">
                                                 <fontDescription key="font" type="system" weight="medium" pointSize="17"/>
                                             </label>
                                         </items>
@@ -46,7 +46,7 @@
                                 <tableRow identifier="row_id2" id="Ohs-rr-goQ" customClass="RowController" customModule="HamiltonTevin_StarBoared_Watch_Extension">
                                     <group key="rootItem" width="1" alignment="left" id="hZ8-Xt-JQI">
                                         <items>
-                                            <label width="136" height="63" alignment="left" text="Label" textAlignment="center" id="6Jb-CU-Cas">
+                                            <label width="136" height="63" alignment="left" text="Label" textAlignment="center" minimumScaleFactor="0.5" id="6Jb-CU-Cas">
                                                 <fontDescription key="font" type="system" weight="medium" pointSize="22"/>
                                             </label>
                                         </items>
